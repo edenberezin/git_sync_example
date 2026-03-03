@@ -1,13 +1,13 @@
 inlined_funcs: []
 local_types: |-
-  /* >> LABSYNC DO NOT TOUCH: 3fe369c3-aa35-43d7-9b19-d5cd5f96d02e << */
+  /* >> LABSYNC DO NOT TOUCH: 352774ed-fec7-4486-b214-b0d9f2a3c78f << */
   struct Elf64_Dyn
   {
     unsigned __int64 d_tag;
     unsigned __int64 d_un;
   };
 
-  /* >> LABSYNC DO NOT TOUCH: 97b7ed3d-750d-4159-b39c-7eb0811dedc9 << */
+  /* >> LABSYNC DO NOT TOUCH: 99a666f8-ccb8-43aa-b929-b9bd74ddf2f5 << */
   struct Elf64_Rela
   {
     unsigned __int64 r_offset;
@@ -15,7 +15,7 @@ local_types: |-
     __int64 r_addend;
   };
 
-  /* >> LABSYNC DO NOT TOUCH: eca2e6f6-20c3-4a0a-9937-3af7d1aab96e << */
+  /* >> LABSYNC DO NOT TOUCH: 903176ca-6dae-4197-8bed-cd5d6740a1d8 << */
   struct Elf64_Sym
   {
     unsigned __int32 st_name __offset(OFF64,0x3F8);
@@ -26,7 +26,7 @@ local_types: |-
     unsigned __int64 st_size;
   };
 
-  /* >> LABSYNC DO NOT TOUCH: 27f9b2c3-e59b-435b-8248-378e49408e78 << */
+  /* >> LABSYNC DO NOT TOUCH: 8eed02aa-850f-420b-8ebd-72c67ff62688 << */
   struct Elf64_Vernaux
   {
     unsigned __int32 vna_hash;
@@ -36,7 +36,7 @@ local_types: |-
     unsigned __int32 vna_next;
   };
 
-  /* >> LABSYNC DO NOT TOUCH: a427c8b1-270d-4d40-bfbb-99137e35db89 << */
+  /* >> LABSYNC DO NOT TOUCH: 5bb69247-780e-4b84-af7f-7a22f309af2c << */
   struct Elf64_Verneed
   {
     unsigned __int16 vn_version;
@@ -45,6 +45,9 @@ local_types: |-
     unsigned __int32 vn_aux;
     unsigned __int32 vn_next;
   };
+
+  /* >> LABSYNC DO NOT TOUCH: 850ee2ce-75be-477f-a85e-82a4585749e9 << */
+  struct std::ios_base::Init;
 names:
   0x238: aLib64LdLinuxX8
   0x260: aGnu
@@ -91,7 +94,7 @@ names:
   0x9c4: .term_proc
   0x9d0: _IO_stdin_used
   0x9d4: _ZStL19piecewise_construct
-  0x9d5: hello_world
+  0x9d5: aHelloWorld
   0x9e4: __GNU_EH_FRAME_HDR
   0xb74: __FRAME_END__
   0x200d78: __frame_dummy_init_array_entry
@@ -126,6 +129,9 @@ names:
   0x201178: _ZNSt8ios_base4InitD1Ev
 prototypes:
   0x760: int ___cxa_atexit(void (*lpfunc)(void *), void *obj, void *lpdso_handle)
+  0x770: __int64 __fastcall __ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc(_QWORD,
+    _QWORD, _QWORD)
+  0x780: __int64 __fastcall __ZNSolsEPFRSoS_E(_QWORD, _QWORD)
   0x790: _QWORD __ZNSt8ios_base4InitC1Ev(std::ios_base::Init *__hidden this)
   0x7a0: int __cxa_finalize(void *)
   0x8ba: int __fastcall main(int argc, const char **argv, const char **envp)
