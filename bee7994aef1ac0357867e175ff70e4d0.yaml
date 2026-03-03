@@ -84,7 +84,7 @@ names:
   0x9c4: .term_proc
   0x9d0: _IO_stdin_used
   0x9d4: _ZStL19piecewise_construct
-  0x9d5: aHelloWorld
+  0x9d5: new_texe_var
   0x9e4: __GNU_EH_FRAME_HDR
   0xb74: __FRAME_END__
   0x200d78: __frame_dummy_init_array_entry
