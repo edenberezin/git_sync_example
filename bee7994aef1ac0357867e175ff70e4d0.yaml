@@ -1,0 +1,148 @@
+inlined_funcs: []
+local_types: |-
+  /* >> LABSYNC DO NOT TOUCH: 352774ed-fec7-4486-b214-b0d9f2a3c78f << */
+  struct Elf64_Dyn
+  {
+    unsigned __int64 d_tag;
+    unsigned __int64 d_un;
+  };
+
+  /* >> LABSYNC DO NOT TOUCH: 99a666f8-ccb8-43aa-b929-b9bd74ddf2f5 << */
+  struct Elf64_Rela
+  {
+    unsigned __int64 r_offset;
+    unsigned __int64 r_info;
+    __int64 r_addend;
+  };
+
+  /* >> LABSYNC DO NOT TOUCH: 903176ca-6dae-4197-8bed-cd5d6740a1d8 << */
+  struct Elf64_Sym
+  {
+    unsigned __int32 st_name __offset(OFF64,0x3F8);
+    unsigned __int8 st_info;
+    unsigned __int8 st_other;
+    unsigned __int16 st_shndx;
+    unsigned __int64 st_value __off;
+    unsigned __int64 st_size;
+  };
+
+  /* >> LABSYNC DO NOT TOUCH: 8eed02aa-850f-420b-8ebd-72c67ff62688 << */
+  struct Elf64_Vernaux
+  {
+    unsigned __int32 vna_hash;
+    unsigned __int16 vna_flags;
+    unsigned __int16 vna_other;
+    unsigned __int32 vna_name __offset(OFF64,0x3F8);
+    unsigned __int32 vna_next;
+  };
+
+  /* >> LABSYNC DO NOT TOUCH: 5bb69247-780e-4b84-af7f-7a22f309af2c << */
+  struct Elf64_Verneed
+  {
+    unsigned __int16 vn_version;
+    unsigned __int16 vn_cnt;
+    unsigned __int32 vn_file __offset(OFF64,0x3F8);
+    unsigned __int32 vn_aux;
+    unsigned __int32 vn_next;
+  };
+
+  /* >> LABSYNC DO NOT TOUCH: 850ee2ce-75be-477f-a85e-82a4585749e9 << */
+  struct std::ios_base::Init;
+names:
+  0x238: aLib64LdLinuxX8
+  0x260: aGnu
+  0x280: aGnu_0
+  0x298: elf_gnu_hash_nbuckets
+  0x29c: elf_gnu_hash_symbias
+  0x2a0: elf_gnu_hash_bitmask_nwords
+  0x2a4: elf_gnu_hash_shift
+  0x2a8: elf_gnu_hash_indexes
+  0x2b0: elf_gnu_hash_bucket
+  0x2b8: elf_gnu_hash_chain
+  0x3f9: aLibstdcSo6
+  0x408: aGmonStart
+  0x417: aItmDeregistert
+  0x433: aItmRegistertmc
+  0x44d: aZnst8iosBase4i
+  0x465: aZnsolsepfrsosE
+  0x476: aZst4endlicst11
+  0x4b1: aZnst8iosBase4i_0
+  0x4c9: aZstlsist11char
+  0x501: aZst4cout
+  0x50b: aLibcSo6
+  0x515: aCxaAtexit
+  0x522: aCxaFinalize
+  0x531: aLibcStartMain
+  0x543: aGlibcxx34
+  0x54f: aGlibc225
+  0x738: .init_proc
+  0x760: .__cxa_atexit
+  0x770: ._ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+  0x780: ._ZNSolsEPFRSoS_E
+  0x790: ._ZNSt8ios_base4InitC1Ev
+  0x7a0: __cxa_finalize
+  0x7b0: _start
+  0x7e0: deregister_tm_clones
+  0x820: register_tm_clones
+  0x870: __do_global_dtors_aux
+  0x8b0: frame_dummy
+  0x8ba: main
+  0x8ed: _Z41__static_initialization_and_destruction_0ii
+  0x936: _GLOBAL__sub_I_main
+  0x950: __libc_csu_init
+  0x9c0: __libc_csu_fini
+  0x9c4: .term_proc
+  0x9d0: _IO_stdin_used
+  0x9d4: _ZStL19piecewise_construct
+  0x9d5: aHelloWorld
+  0x9e4: __GNU_EH_FRAME_HDR
+  0xb74: __FRAME_END__
+  0x200d78: __frame_dummy_init_array_entry
+  0x200d88: __do_global_dtors_aux_fini_array_entry
+  0x200d90: _DYNAMIC
+  0x200f90: _GLOBAL_OFFSET_TABLE_
+  0x200fa8: __cxa_atexit_ptr
+  0x200fb0: _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc_ptr
+  0x200fb8: _ZNSolsEPFRSoS_E_ptr
+  0x200fc0: _ZNSt8ios_base4InitC1Ev_ptr
+  0x200fc8: __cxa_finalize_ptr
+  0x200fd0: _ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6__ptr
+  0x200fd8: _ITM_deregisterTMCloneTable_ptr
+  0x200fe0: __libc_start_main_ptr
+  0x200fe8: __gmon_start___ptr
+  0x200ff0: _ITM_registerTMCloneTable_ptr
+  0x200ff8: lpfunc
+  0x201000: __data_start
+  0x201008: __dso_handle
+  0x201010: __bss_start
+  0x201020: _ZSt4cout@@GLIBCXX_3.4
+  0x201130: completed.7698
+  0x201131: _ZStL8__ioinit
+  0x201138: _end
+  0x201140: __imp___cxa_finalize
+  0x201148: _ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_
+  0x201150: __cxa_atexit
+  0x201158: _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+  0x201160: _ZNSolsEPFRSoS_E
+  0x201168: _ZNSt8ios_base4InitC1Ev
+  0x201170: __libc_start_main
+  0x201178: _ZNSt8ios_base4InitD1Ev
+prototypes:
+  0x760: int ___cxa_atexit(void (*lpfunc)(void *), void *obj, void *lpdso_handle)
+  0x770: __int64 __fastcall __ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc(_QWORD,
+    _QWORD, _QWORD)
+  0x780: __int64 __fastcall __ZNSolsEPFRSoS_E(_QWORD, _QWORD)
+  0x790: _QWORD __ZNSt8ios_base4InitC1Ev(std::ios_base::Init *__hidden this)
+  0x7a0: int __cxa_finalize(void *)
+  0x8ba: int __fastcall main(int argc, const char **argv, const char **envp)
+  0x8ed: __int64 __fastcall _Z41__static_initialization_and_destruction_0ii(int, int)
+  0x950: void __libc_csu_init(void)
+  0x9c0: void __libc_csu_fini(void)
+  0x201140: int __imp___cxa_finalize(void *)
+  0x201150: int __cxa_atexit(void (*lpfunc)(void *), void *obj, void *lpdso_handle)
+  0x201168: _QWORD _ZNSt8ios_base4InitC1Ev(std::ios_base::Init *__hidden this)
+  0x201170: int __libc_start_main(int (*main)(int, char **, char **), int argc, char
+    **ubp_av, void (*init)(void), void (*fini)(void), void (*rtld_fini)(void), void
+    *stack_end)
+  0x201178: void _ZNSt8ios_base4InitD1Ev(std::ios_base::Init *__hidden this)
+version: 0x4
