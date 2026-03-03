@@ -84,7 +84,7 @@ names:
   0x9c4: .term_proc
   0x9d0: _IO_stdin_used
   0x9d4: _ZStL19piecewise_construct
-  0x9d5: new_texe_var
+  0x9d5: newer_texe_var
   0x9e4: __GNU_EH_FRAME_HDR
   0xb74: __FRAME_END__
   0x200d78: __frame_dummy_init_array_entry
@@ -96,7 +96,7 @@ names:
   0x200fb8: _ZNSolsEPFRSoS_E_ptr
   0x200fc0: _ZNSt8ios_base4InitC1Ev_ptr
   0x200fc8: __cxa_finalize_ptr
-  0x200fd0: _ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6__ptr
+  0x200fd0: ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6
   0x200fd8: _ITM_deregisterTMCloneTable_ptr
   0x200fe0: __libc_start_main_ptr
   0x200fe8: __gmon_start___ptr
