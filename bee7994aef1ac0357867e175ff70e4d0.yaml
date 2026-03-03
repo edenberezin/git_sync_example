@@ -121,7 +121,7 @@ prototypes:
   0x760: int ___cxa_atexit(void (*lpfunc)(void *), void *obj, void *lpdso_handle)
   0x770: __int64 __fastcall __ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc(_QWORD
     p__ZSt4cout@@GLIBCXX_3.4, _QWORD aHelloWorld, _QWORD envp)
-  0x780: __int64 __fastcall __ZNSolsEPFRSoS_E(_QWORD, _QWORD _ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6)
+  0x780: __int64 __fastcall __ZNSolsEPFRSoS_E(_QWORD, _QWORD ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6)
   0x790: _QWORD __ZNSt8ios_base4InitC1Ev(std::ios_base::Init *__hidden this)
   0x7a0: int __cxa_finalize(void *)
   0x8ba: int __fastcall main(int argc, const char **argv, const char **envp)
