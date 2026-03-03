@@ -36,16 +36,6 @@ local_types: |-
     unsigned __int32 vna_next;
   };
 
-  /* >> LABSYNC DO NOT TOUCH: 5bb69247-780e-4b84-af7f-7a22f309af2c << */
-  struct Elf64_Verneed
-  {
-    unsigned __int16 vn_version;
-    unsigned __int16 vn_cnt;
-    unsigned __int32 vn_file __offset(OFF64,0x3F8);
-    unsigned __int32 vn_aux;
-    unsigned __int32 vn_next;
-  };
-
   /* >> LABSYNC DO NOT TOUCH: 850ee2ce-75be-477f-a85e-82a4585749e9 << */
   struct std::ios_base::Init;
 names:
